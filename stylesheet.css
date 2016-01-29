@@ -1,50 +1,48 @@
+/* u- defines user_file*/
+
 body{
-	margin: 0px;
+	background:url(office-lighting-166q.jpg)no-repeat;
+	background-position: fixed;
+	background-size: 1366px;
+	padding:0px;
+	margin:0px;
 }
 li{
-	display: inline;
-	list-style: none;
+	
 	margin-left: 15px;
 	font-size: 15px;
 }
-#header{
-	height: 500px;
-	background-color: grey;
-	color: #fff;
-	font-size: 25px;
+
+#black-transparent{
+	margin-top: 108px;
+	background-color: black;
+	opacity: 0.7;
 }
-.header_right{
-	float: right;
-	width: 30%;
+#img-center{
+	margin-top: 200px;
+	padding:0px;
+    color: white;
+    text-align:center;
+    font-family:Arial;
+    font-weight: bold;
 }
-.header_left{
-	float: left;
-	width: 70%;
+.Get_aap_btn{
+	background-color: #222222;
+    border: 1px;
+    color: white;
+    text-align: center;
 }
-.header_content{
-	padding-top: 100px;
-	text-align: center;
-}
-.btn_h{
-	background-color:#DC143C;
-	border:none;
-	border-radius: 5px;
+#img-bottem{
+	text-align:center;
+    color: white;
+    font-family:Roboto;
 }
 #courses{
-	margin-left: 100px;
-	float: left;
-	width: 55%;
 	margin-top: 50px;
 }
 #test_series{
-	float: right;
+	border-left:1px solid grey;
 	margin-top: 50px;
-	width: 35%;
-	font-size: 15px;
-	border-left: 1px solid #708090;
-	padding-left: 10px;
-	padding-top: 5px;
-
 }
 .courses1{
 	font-size: 15px;
@@ -53,25 +51,44 @@ li{
 	width: 20%;
 	float: left;
 	margin-top: 60px;
+	border: 20px;
+}
+#col4{
+	padding-top: 100px;
+	text-align: center;
+}
+.view{
+	float:right;
+	color: #A9A9A9;
+	font-size: 11px;
 }
 #vyaktitiva{
-	
-	width: 35%;
-	font-size: 15px;
-	color: grey;
+	float: right;
+	color: #A9A9A9;
+	margin-top: 10px;
 }
 #practice{
-	background-color: #2E8B57;
-	height: 350px;
-	float: clear;
+	background-color: #36b986;
+	vertical-align: center;
+	margin-top: 50px;
+	padding: 50px;
+}
+#practicetext{
+	text-align: left;
+	vertical-align: middle;
+	color: #fff;
 }
 #slideshow{
 	height: 350px;
-	background-color: #C0C0C0;
+
+}
+#slideshow_in_Mac{
+	position: absolute;
+	margin-top: 50px;
+	margin-right: 50px;
 }
 #slideshow_content1{
 	height: 280px;
-	background-color: #191970;
 	font-size: 25px;
 	color: #fff;
 	text-align: center;
@@ -79,19 +96,69 @@ li{
 	padding-left: 30px;
 	padding-top: 50px;
 }
-.btn{
+.u-btn{
 	border-radius: 15px;
-	margin: 10px;
+	padding: 5px;
+	padding-left:25px ;
+	padding-right: 25px;
 	background-color: #00CED1;
 	border:none;
+	margin: 5px;
 }
-.btn_t{
-	background-color: #B22222;
+.u-btn_t{
 	display: inline;
 	border:none;
-	border-radius: 2px;
-
+	border-radius: 10px;
+	margin-left: 5px;
 }
 .test_line{
-	background-color: #00CED1;
+	color: #00CED1;
+
+}
+.t_line{
+	color: #A9A9A9;
+}
+.img-hidden{
+	width: 100%;
+	max-height:100%; 
+	max-width:100%; 
+    overflow:hidden; 
+}
+.side-bar{
+	height: 40px;
+	background-color: grey;
+	padding:10px;
+	color: white;
+	position: fixed;
+	transform: rotate(270deg);
+	left: -95px;
+	bottom: 100px;
+	border-radius: 0px 0px 20px 20px;
+}
+.u-btn-applink{
+	border: 1.5px solid white;
+	background-color:#36b986; 
+	color: #fff;
+}
+.u-container {
+	 padding-right: 50px;
+ 	 padding-left: 50px;
+	 margin-right: auto;
+ 	 margin-left: auto;
+}
+.row_footer{
+	text-align: center;
+}
+
+#u-footor{
+	margin-top: 50px;
+	border-top: 1px solid #A9A9A9;
+	font-weight: bold;
+	border-bottom: 1px solid #A9A9A9;
+}
+#l_footer{
+	margin-top: 30px;
+}
+#fb{
+
 }
